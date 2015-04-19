@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7531" systemVersion="14D131" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7520"/>
+    </dependencies>
+    <scenes>
+        <!--Error View Controller-->
+        <scene sceneID="y9N-Bh-NYx">
+            <objects>
+                <viewController storyboardIdentifier="BPErrorViewController" id="PBv-Of-Fss" customClass="BPErrorViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="mWe-Wq-bxr"/>
+                        <viewControllerLayoutGuide type="bottom" id="A3t-Nd-vFu"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="IPQ-XW-1aT">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fE2-oM-6EN">
+                                <rect key="frame" x="128" y="206" width="64" height="67"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="error" translatesAutoresizingMaskIntoConstraints="NO" id="LOu-os-cB4">
+                                        <rect key="frame" x="13" y="0.0" width="39" height="39"/>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="没有数据" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0xZ-LX-dED">
+                                        <rect key="frame" x="0.0" y="43" width="64" height="20"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                        <color key="textColor" red="0.78823529411764703" green="0.80392156862745101" blue="0.80784313725490198" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="0xZ-LX-dED" secondAttribute="width" id="9PA-WS-QCj"/>
+                                    <constraint firstAttribute="bottom" secondItem="0xZ-LX-dED" secondAttribute="bottom" constant="4" id="Guq-sM-Uo1"/>
+                                    <constraint firstAttribute="centerX" secondItem="0xZ-LX-dED" secondAttribute="centerX" id="KXQ-WG-U5N"/>
+                                    <constraint firstItem="LOu-os-cB4" firstAttribute="top" secondItem="fE2-oM-6EN" secondAttribute="top" id="UPG-32-opJ"/>
+                                    <constraint firstItem="0xZ-LX-dED" firstAttribute="top" secondItem="LOu-os-cB4" secondAttribute="bottom" constant="4" id="rRm-1m-EMZ"/>
+                                    <constraint firstAttribute="centerX" secondItem="LOu-os-cB4" secondAttribute="centerX" id="xp9-he-1va"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="centerX" secondItem="fE2-oM-6EN" secondAttribute="centerX" id="hlW-jH-Fpk"/>
+                            <constraint firstAttribute="width" relation="greaterThanOrEqual" secondItem="0xZ-LX-dED" secondAttribute="width" constant="20" id="kya-J3-ExP"/>
+                            <constraint firstAttribute="centerY" secondItem="fE2-oM-6EN" secondAttribute="centerY" id="mRG-jr-dqe"/>
+                        </constraints>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
+                    <connections>
+                        <outlet property="imageView" destination="LOu-os-cB4" id="5vS-aM-3DE"/>
+                        <outlet property="textLabel" destination="0xZ-LX-dED" id="c9r-Hj-kCL"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ptK-Sj-JhQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="313" y="372"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="error" width="39" height="39"/>
+    </resources>
+</document>
