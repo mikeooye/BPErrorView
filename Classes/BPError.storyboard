@@ -31,6 +31,7 @@
                                 </subviews>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <constraints>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" secondItem="LOu-os-cB4" secondAttribute="width" id="1yP-5n-7cb"/>
                                     <constraint firstAttribute="width" secondItem="0xZ-LX-dED" secondAttribute="width" id="9PA-WS-QCj"/>
                                     <constraint firstAttribute="bottom" secondItem="0xZ-LX-dED" secondAttribute="bottom" constant="4" id="Guq-sM-Uo1"/>
                                     <constraint firstAttribute="centerX" secondItem="0xZ-LX-dED" secondAttribute="centerX" id="KXQ-WG-U5N"/>
