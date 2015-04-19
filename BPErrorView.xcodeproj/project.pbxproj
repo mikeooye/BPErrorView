@@ -18,6 +18,7 @@
 		280395921AE359DE00473A22 /* BPError.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 280395911AE359DE00473A22 /* BPError.storyboard */; };
 		280395941AE35A3800473A22 /* Error.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 280395931AE35A3800473A22 /* Error.xcassets */; };
 		280395981AE35DCA00473A22 /* UIViewController+bpAdding.m in Sources */ = {isa = PBXBuildFile; fileRef = 280395971AE35DCA00473A22 /* UIViewController+bpAdding.m */; };
+		2803959A1AE3698400473A22 /* BPError demo gif.gif in Resources */ = {isa = PBXBuildFile; fileRef = 280395991AE3698400473A22 /* BPError demo gif.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +51,7 @@
 		280395931AE35A3800473A22 /* Error.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Error.xcassets; sourceTree = "<group>"; };
 		280395961AE35DCA00473A22 /* UIViewController+bpAdding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+bpAdding.h"; sourceTree = "<group>"; };
 		280395971AE35DCA00473A22 /* UIViewController+bpAdding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+bpAdding.m"; sourceTree = "<group>"; };
+		280395991AE3698400473A22 /* BPError demo gif.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "BPError demo gif.gif"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +110,7 @@
 		280395671AE3591400473A22 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				280395991AE3698400473A22 /* BPError demo gif.gif */,
 				280395681AE3591400473A22 /* Info.plist */,
 				280395691AE3591400473A22 /* main.m */,
 			);
@@ -234,6 +237,7 @@
 				280395731AE3591400473A22 /* Main.storyboard in Resources */,
 				280395921AE359DE00473A22 /* BPError.storyboard in Resources */,
 				280395941AE35A3800473A22 /* Error.xcassets in Resources */,
+				2803959A1AE3698400473A22 /* BPError demo gif.gif in Resources */,
 				280395781AE3591400473A22 /* LaunchScreen.xib in Resources */,
 				280395751AE3591400473A22 /* Images.xcassets in Resources */,
 			);
